@@ -1,0 +1,48 @@
+.ListControl{
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 20px;
+
+}
+
+.ListControl button {
+  display: flex;
+  font: inherit;
+  padding: 5px;
+  margin: 0 4px;
+  width: 40px;
+  border: 1px solid #AA6817;
+  cursor: pointer;
+  outline: none;
+}
+
+.Input {
+    background-color: lightBlue;
+    border-radius: 5%;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 20px;
+    width: 80%;
+}
+
+.ListControl .Delete {
+    background-color: orange;
+    color: white;
+}
+
+.ListControl .Edit {
+    background-color: #8F5E1E;
+    color: white;
+}
+
+.ListControl .Delete:hover, .ListControl .Delete:active {
+    background-color: #DAA972;
+    color: white;
+}
+
+.ListControl .Edit:hover,.ListControl .Edit:active {
+    background-color: #99703F;
+    color: white;
+}

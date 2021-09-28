@@ -1,0 +1,13 @@
+.Content {
+  margin-top: 72px;
+}
+.Header{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+  line-height: 2;
+  background-color: blue;
+}
